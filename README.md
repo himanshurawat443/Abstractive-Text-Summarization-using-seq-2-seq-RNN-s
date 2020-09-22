@@ -3,9 +3,9 @@ The objective of this project was to build an Abstractive Text Summarizer using 
 
 Text summarization is the process of automatically generating natural language summaries from an input document while retaining the important points. It would help in easy and fast retrieval of information. Abstractive summarization systems generate new phrases, possibly rephrasing or using words that were not in the original text. 
 
-We have done preprocessing on the dataset by converting everything to lowercase, removing HTML tags, stop words, punctuations, special characters, any text inside parenthesis and contraction mapping for better training of the model.
+I have done preprocessing on the dataset by converting everything to lowercase, removing HTML tags, stop words, punctuations, special characters, any text inside parenthesis and contraction mapping for better training of the model.
 
-During implementation we used a 3 Layer Stacked LSTM Encoder-Decoder model with Global Attention Mechanism. With this model we were able to get an accuracy of 67.27% on training set (constituting 80% of the dataset). Also cumulative BLEU-4 score of 0.8800 was achieved by this model on training set.
+During implementation a 3 Layer Stacked LSTM Encoder-Decoder model with Global Attention Mechanism was used. With this model I was able to get an accuracy of 77.27% on training set (constituting 80% of the dataset). Also cumulative BLEU-4 score of 0.8800 was achieved by this model on test set.
 
 Colab link : https://colab.research.google.com/drive/17dCQU4fi-n1458_KFK_ZYlyj2bZIHOFq?usp=sharing
 
@@ -15,4 +15,4 @@ Firstly,you have to upload the Datset on your Google Drive then connect that Goo
 
 After entering in order to execute code you have to run cells using 'Shift + Enter' or 'Ctrl + Enter'
 
-Comments habe been added for better understanding of the code 
+Comments have been added for better understanding of the code 
